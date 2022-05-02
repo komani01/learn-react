@@ -49,7 +49,7 @@ function TodoFeature(props) {
 	const handleComplete = () => {
 		setFilterStatus('completed')
 	}
-
+    
 	const RenderList = todoList.filter(todo => filterStatus === 'all' || filterStatus === todo.status)
 	console.log(RenderList);
 	return(
