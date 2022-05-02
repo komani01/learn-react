@@ -4,6 +4,10 @@ import TodoFeature from './Features/Todo';
 function App() {
 	return (
 		<div className='App'>
+			<header className='App-header'>
+				<TodoFeature />
+			</header>
+
 			<div>
 				<AlbumFeature />
 			</div>
