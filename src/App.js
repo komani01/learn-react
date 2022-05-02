@@ -1,4 +1,5 @@
 import './App.css';
+import ColorBox from './Components';
 import AlbumFeature from './Features/Album';
 import TodoFeature from './Features/Todo';
 function App() {
@@ -10,6 +11,7 @@ function App() {
 
 			<div>
 				<AlbumFeature />
+				<ColorBox />
 			</div>
 		</div>
 	);
