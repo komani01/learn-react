@@ -1,0 +1,11 @@
+.album{
+    &-url{
+        > img{
+            width: 200px;
+            border-radius: 100px;
+}
+    }
+    &-name{ 
+        font-weight: bold;
+    }
+}
