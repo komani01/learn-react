@@ -11,7 +11,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
     -webkit-animation: App-logo-spin infinite 20s linear;
-    } 
+  }
 }
 
 .App-header {
@@ -39,4 +39,3 @@ li {
     transform: rotate(360deg);
   }
 }
-
