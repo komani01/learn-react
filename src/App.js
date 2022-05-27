@@ -2,8 +2,8 @@ import { useEffect } from 'react';
 import { Link, NavLink, Route, Routes } from 'react-router-dom';
 import ProductApi from './API/ProductAPI';
 import './App.css';
-import ColorBox from './Components';
 import AlbumFeature from './Features/Album';
+import ColorBox from './Features/ColorBox';
 import TodoFeature from './Features/Todo';
 
 function App() {
