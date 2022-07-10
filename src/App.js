@@ -4,6 +4,7 @@ import ProductApi from './API/ProductAPI';
 import './App.css';
 import AlbumFeature from './Features/Album';
 import ColorBox from './Features/ColorBox';
+import Header from './Features/Header';
 import TodoFeature from './Features/Todo';
 
 function App() {
@@ -19,15 +20,16 @@ function App() {
     }, []);
     return (
         <div className="App">
-            Home Page
+            <Header />
             <p>
                 <NavLink to="/todos">Todo</NavLink>
             </p>
-            <p>
-                <NavLink to="/color">ColorBox</NavLink>
-            </p>
+
             <p>
                 <NavLink to="/albums">Album</NavLink>
+            </p>
+            <p>
+                <NavLink to="/color">ColorBox</NavLink>
             </p>
             <Routes>
                 <Route path="/todos" element={<TodoFeature />} />
